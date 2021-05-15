@@ -1,0 +1,95 @@
+.counterComp{
+  border-bottom: 3px solid black;
+}
+
+.counterArea{
+  border: 1px solid black;
+  border-radius: 4px;
+  margin: 10px auto;
+  padding: 10px;
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  background-color: beige;
+}
+
+.counterArea button{
+  border: none;
+  background-color: Transparent;
+  color: lightgreen;
+}
+
+.counterArea button:hover{
+  transform: scale(1.1);
+  color: green;
+  cursor: pointer;
+}
+
+.counterTitle{
+  text-align: center;
+  margin: 20px;
+}
+
+.inputForm{
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  padding: 10px;
+  width: 20%;
+}
+
+.inputForm button{
+  margin: 10px;
+  background-color: brown;
+  color: white;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+.inputForm button:hover{
+  background-color: coral;
+  cursor: pointer;
+}
+
+.inputForm input{
+  margin: 5px;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+.memeArea{
+  margin: 10px auto;
+  width: 50%;
+}
+
+.memeArea img{
+  width: 800px;
+}
+
+.memeArea h3{
+  position: relative;
+  left: 400px;
+  background-color: white;
+  display: inline-block;
+}
+
+.memeArea h3:nth-child(1){
+  top: 100px;
+}
+
+.memeArea h3:nth-child(3){
+  top: -100px;
+}
+
+.meme{
+  border-bottom: 3px solid black;
+}
+
+.toggle{
+  margin: 10px auto;
+  text-align: center;
+  border-bottom: 3px solid black;
+  padding-bottom: 10px;
+}
